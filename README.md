@@ -1,4 +1,4 @@
- Hello, please click  <a href= "https://canerduzenli.github.io/citytours/"> Here </a>  to see more
+ Hello, please click  <a href= "https://canerduzenli.github.io/rating-system/"> Here </a>  to see more
 
 
 
