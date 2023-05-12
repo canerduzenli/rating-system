@@ -1,0 +1,87 @@
+@charset "UTF-8";
+
+:root {
+  --app-dark-bg: #1a1d28;
+  --app-smoothblack: #333333;
+  --app-bg: #f2f3f4;
+  --app-bg-smoothblue: #93BFCF;
+  --app-bg-smoothdarkblue: #2E6D8F;
+  --app-bg-smoothlightblue: #D5EDF2;
+  --app-bg-orange: #d47215;
+  --app-bg-purple: #6a1fc0;
+  --app-bg-dark: #323235;
+  --app-bg-green: #4dcc3c;
+  --app-blue-hover: #364ee6;
+  --app-red: #ff3c57;
+  --app-red-hover: #ff2846;
+  --app-orange: #e4854e;
+  --app-darkpink: #FF69B4;
+  --app-peachpink: #FFB347;
+  --app-lightpink: #FF007F;
+
+}
+
+body {
+  background-color: #333333;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+
+.Stars {
+  cursor: pointer;
+}
+
+.StarsC {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+}
+
+.StarsC h2 {
+  color: #fff;
+}
+
+.starsRa {
+  display: flex;
+  font-size: 32px;
+
+}
+
+button {
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+  padding: 10px;
+  background-color:
+    var(--app-bg-smoothdarkblue);
+  color: #fff;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.DialogC {
+  height: 200px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgb(193, 181, 181);
+  border-radius: 5px;
+
+
+}
+
+.DialogC h2,
+p {
+  padding: 10px;
+  text-align: center;
+
+}
